@@ -1,2 +1,18 @@
-
-/* Your CSS Code here. */
+.moviePic{
+	height:400px;
+	width:400px;
+	opacity:0.5;
+	box-shadow:2px 2px 5px 2px brown;
+	transition:opacity 1s linear , transform 1s ease;
+}
+.moviePic:hover{
+	opacity:1;
+	transform:scale(1.02)
+}
+.movieDetail{
+	position:relative;
+	top;20px;
+	width:100%;
+	text-align:center;
+	font-size:20px;
+}
